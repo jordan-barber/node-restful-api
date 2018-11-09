@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var Car = require('./models/cars');
 var app = express();
 
-mongoose.connect('mongodb://jordan:root@ds015780.mlab.com:15780/noderesfulexample')
+mongoose.connect('XXX')
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
